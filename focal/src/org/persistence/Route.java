@@ -24,7 +24,7 @@ public class Route implements Serializable {
 	@Basic
 	private long busId;
 	
-	@ElementCollection
+	
 	@OneToMany
 	@JoinColumn(name = "stopId")
 	private List<Stop> stop;
